@@ -10,14 +10,12 @@
 }
 
 body {
-    background: hsl(185, 75%, 39%) url(img/bg-pattern-top.svg);
-    background-position: top;
-    background-repeat: repeat-y;
-    background-size: 600px;
-    background-position-x: left;
-    background-position-y: -250px;
+    background: top left no-repeat url(img/bg-pattern-top.svg), bottom right no-repeat url(img/bg-pattern-bottom.svg);
     display: flex;
     font-family: "kumb-sans";
+    background-color: hsl(185, 75%, 39%);
+    background-size: 500px;
+
 }
 
 
